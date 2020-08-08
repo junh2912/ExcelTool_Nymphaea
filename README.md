@@ -11,14 +11,14 @@
 
 
 ## 설치 안내
-- 다운로드 : [https://drive.google.com/file/d/1oIgYioTRbJBsGuK9iYmkSjkZ02Zk4Wg4/view?usp=sharing](https://drive.google.com/file/d/1oIgYioTRbJBsGuK9iYmkSjkZ02Zk4Wg4/view?usp=sharing)
+- 다운로드 : [https://drive.google.com/file/d/1iPTzIvljUueL0urUEFN5CGDD-9f_yapl/view?usp=sharing](https://drive.google.com/file/d/1iPTzIvljUueL0urUEFN5CGDD-9f_yapl/view?usp=sharing)
 
 
 ## 사용법
 ### Insert Image
 - 많은 양의 이미지를 자동으로 셀 크기에 맞게 삽입해주는 기능.
 > - File Path : 파일 경로를 입력.
-> - Expention : 파일의 확장자를 입력. 입력하지 않을 시, 자동으로 png파일로 세팅합니다.
+> - Extention : 파일의 확장자를 입력. 입력하지 않을 시, 자동으로 png파일로 세팅.
 > - File Name Col : 파일 이름 데이터를 가지고 있는 컬럼의 시작 셀 주소를 입력. 연속된 데이터에 대해서만 체크.
 > - Insert Col : 이미지를 삽입할 컬럼의 시작 셀 주소를 입력.
 > - Insert : 이미지 삽입 기능 실행.
