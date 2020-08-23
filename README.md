@@ -11,7 +11,7 @@
 
 
 ## 설치 안내
-- 다운로드 : [https://drive.google.com/file/d/1iPTzIvljUueL0urUEFN5CGDD-9f_yapl/view?usp=sharing](https://drive.google.com/file/d/1iPTzIvljUueL0urUEFN5CGDD-9f_yapl/view?usp=sharing)
+- 다운로드 : [https://drive.google.com/file/d/1AO46vp2d0AVujEpWC8F9iNHfZGbdleEW/view?usp=sharing](https://drive.google.com/file/d/1AO46vp2d0AVujEpWC8F9iNHfZGbdleEW/view?usp=sharing)
 
 
 ## 사용법

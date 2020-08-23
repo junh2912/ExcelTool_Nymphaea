@@ -22,7 +22,7 @@ namespace ExcelTool_Nymphaea
             Excel.Workbook xlWorkBook = Globals.ThisAddIn.Application.ActiveWorkbook;
             Excel.Worksheet xlWorkSheet = xlWorkBook.ActiveSheet;
 
-            String Extention = editBox_Extention.Text;
+            String Extension = editBox_Extension.Text;
             String FileNameAddress = editBox_FileNameCol.Text;
             String FileInsertAddress = editBox_InsertCol.Text;
             String FilePath = editBox_FilePath.Text;
@@ -57,8 +57,8 @@ namespace ExcelTool_Nymphaea
             }
 
             //확장자를 입력하지 않으면 자동으로 png 세팅
-            if (string.IsNullOrEmpty(Extention))
-                Extention = "png";
+            if (string.IsNullOrEmpty(Extension))
+                Extension = "png";
 
             int row = xlWorkSheet.Range[FileNameAddress].Row;
 
@@ -79,7 +79,7 @@ namespace ExcelTool_Nymphaea
                 }
 
                 //새로운 이미지 삽입하기
-                foreach (FileInfo fileInfo in directoryInfo.GetFiles($"{fileName}.{Extention}", SearchOption.AllDirectories))
+                foreach (FileInfo fileInfo in directoryInfo.GetFiles($"{fileName}.{Extension}", SearchOption.AllDirectories))
                 {
                     Excel.Range InsertRange = xlWorkSheet.Cells[row, xlWorkSheet.Range[FileInsertAddress].Column];
 

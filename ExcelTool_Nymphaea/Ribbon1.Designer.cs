@@ -39,7 +39,7 @@
             this.editBox_FilePath = this.Factory.CreateRibbonEditBox();
             this.editBox_FileNameCol = this.Factory.CreateRibbonEditBox();
             this.button_Insert = this.Factory.CreateRibbonButton();
-            this.editBox_Extention = this.Factory.CreateRibbonEditBox();
+            this.editBox_Extension = this.Factory.CreateRibbonEditBox();
             this.editBox_InsertCol = this.Factory.CreateRibbonEditBox();
             this.button_Delete = this.Factory.CreateRibbonButton();
             this.tab_Nymphaea.SuspendLayout();
@@ -57,7 +57,7 @@
             this.group_InsertImage.Items.Add(this.editBox_FilePath);
             this.group_InsertImage.Items.Add(this.editBox_FileNameCol);
             this.group_InsertImage.Items.Add(this.button_Insert);
-            this.group_InsertImage.Items.Add(this.editBox_Extention);
+            this.group_InsertImage.Items.Add(this.editBox_Extension);
             this.group_InsertImage.Items.Add(this.editBox_InsertCol);
             this.group_InsertImage.Items.Add(this.button_Delete);
             this.group_InsertImage.Label = "Insert Image";
@@ -81,11 +81,11 @@
             this.button_Insert.Name = "button_Insert";
             this.button_Insert.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button_Insert_Click);
             // 
-            // editBox_Extention
+            // editBox_Extension
             // 
-            this.editBox_Extention.Label = "Extention";
-            this.editBox_Extention.Name = "editBox_Extention";
-            this.editBox_Extention.Text = null;
+            this.editBox_Extension.Label = "Extension";
+            this.editBox_Extension.Name = "editBox_Extension";
+            this.editBox_Extension.Text = null;
             // 
             // editBox_InsertCol
             // 
@@ -120,7 +120,7 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonEditBox editBox_FilePath;
         internal Microsoft.Office.Tools.Ribbon.RibbonEditBox editBox_FileNameCol;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton button_Insert;
-        internal Microsoft.Office.Tools.Ribbon.RibbonEditBox editBox_Extention;
+        internal Microsoft.Office.Tools.Ribbon.RibbonEditBox editBox_Extension;
         internal Microsoft.Office.Tools.Ribbon.RibbonEditBox editBox_InsertCol;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton button_Delete;
     }
